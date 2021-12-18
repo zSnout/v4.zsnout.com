@@ -1,0 +1,29 @@
+{
+  "name": "@zsnout/mongodb",
+  "version": "1.0.1",
+  "description": "A zSnout-compatiable database provider for MongoDB.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -w",
+    "prepublishOnly": "tsc -b"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/zsnout/mongodb"
+  },
+  "license": "GNU",
+  "keywords": [],
+  "author": "zsnout",
+  "dependencies": {
+    "@zsnout/core": "^1.0.0",
+    "mongodb": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "4.4.4"
+  }
+}

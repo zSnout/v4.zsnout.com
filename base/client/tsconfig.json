@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "newLine": "lf",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "sourceMap": true,
+    "composite": true,
+    "jsx": "react",
+    "jsxFactory": "jsx",
+    "tsBuildInfoFile": ".tsbuildinfo"
+  }
+}

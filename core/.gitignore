@@ -1,0 +1,10 @@
+package-lock.json
+node_modules
+.git
+**/.DS_Store
+**/.tsbuildinfo
+**/*.js
+**/*.css
+**/*.html
+**/*.d.ts
+**/*.map

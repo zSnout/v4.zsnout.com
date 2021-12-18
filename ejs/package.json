@@ -1,0 +1,32 @@
+{
+  "name": "@zsnout/ejs",
+  "version": "1.0.11",
+  "description": "A module providing easy access to templating using EJS.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": "./bin",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -w",
+    "prepublishOnly": "tsc -b"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/zsnout/ejs"
+  },
+  "license": "GNU",
+  "keywords": [],
+  "author": "zsnout",
+  "dependencies": {
+    "@zsnout/core": "^1.0.0",
+    "ejs": "^3.1.6",
+    "fast-glob": "^3.2.7"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/node": "^16.11.7",
+    "typescript": "4.4.4"
+  }
+}

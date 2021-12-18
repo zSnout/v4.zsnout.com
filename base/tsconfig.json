@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "newLine": "lf",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": ["client"],
+  "references": [{ "path": "client" }]
+}
